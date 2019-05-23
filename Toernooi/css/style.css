@@ -1,0 +1,141 @@
+* {
+	margin: auto;
+	padding:auto;
+}
+
+.item_back {
+	
+	background-color: black;
+	
+}
+
+.tekst1 h1 {
+color: blue;
+	text-align: center;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	margin-top: 8vh;
+	Font-size: 50px;
+	
+}
+
+.topnav {
+	
+	text-align: center;
+	margin-top: -12vh;
+	margin-right: 20vw;
+	text-decoration: none; 
+
+	
+	
+	
+}
+
+.topnav a {
+	
+	color: white;
+  text-decoration: none;
+	margin-left: 4vw;
+	font-size: 30px;
+	font-family: 'Pacifico', cursive;
+}
+.topnav a:hover {
+  color: blue;
+}
+
+.item_button button {
+	
+  border-radius: 15%;
+  color: black;
+  font-size: 25px;
+  border: none;
+  cursor: pointer;
+  margin-left: 80vw;
+  margin-top: -9vh;
+  position: absolute;
+  background-color: green;
+}
+
+
+.users img	 {
+	 
+	 width: 35%;
+	 border-radius: 5%;
+	
+}
+h2 {
+	text-align: center;
+	color: orange;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	
+	
+	
+}
+
+.users {
+text-align: center;
+background-color: #A0D4FC;
+font-size: 20px;
+
+	
+}
+
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: left;
+  color: white;
+  Font-size: 20px;
+  
+}
+
+
+@media (min-width: 321px)and (max-width: 767px) {
+	* {margin: auto;
+	padding: auto;}
+
+	.item_back img{
+	width:40%;
+	height: 40%;
+	background-color: black;
+	
+}
+.item_button button {
+	
+  border-radius: 15%;
+  color: black;
+  font-size: 25px;
+  border: none;
+  cursor: pointer;
+  margin-left: 42vw;
+  margin-top: -24vh;
+  position: absolute;
+  background-color: green;
+}
+
+.topnav {
+	
+	text-align: center;
+	margin-top: -1vh;
+	margin-right: 20vw;
+	text-decoration: none; 
+
+	
+	
+	
+}
+.topnav a {
+	
+	color: blue;
+  text-decoration: none;
+	margin-left: 4vw;
+	font-size: 30px;
+	font-family: 'Pacifico', cursive;
+}
+.item_video1 video {
+	margin-top: 40vh;
+	
+	
+}
+
+	
+}
